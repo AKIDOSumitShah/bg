@@ -1,0 +1,77 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+}
+
+/* Container to center content */
+.container {
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling for paragraph */
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Style for the color buttons */
+.color-btn {
+    padding: 15px 25px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Add hover effect for buttons */
+.color-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Button colors */
+#red {
+    background-color: #ff6347;
+    color: white;
+}
+
+#green {
+    background-color: #32cd32;
+    color: white;
+}
+
+#blue {
+    background-color: #1e90ff;
+    color: white;
+}
+
+#yellow {
+    background-color: #ffeb3b;
+    color: black;
+}
+
+#purple {
+    background-color: #9b59b6;
+    color: white;
+}
+
+#orange {
+    background-color: #ff7f50;
+    color: white;
+}
